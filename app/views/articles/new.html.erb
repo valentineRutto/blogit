@@ -1,4 +1,4 @@
-<h1>Blog On It</h1>
+<h1 style="text-align:center;">Blog On It</h1>
 <%= form_for :article, url: articles_path  do |f| %>
   <p>
     <%= f.label :title %><br>
@@ -14,3 +14,4 @@
     <%= f.submit :BlogIt %>
   </p>
 <% end %>
+<%= link_to 'Back', articles_path %>
